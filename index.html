@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		body {
+			padding: 20px;
+			font-family: monospace;
+            font-size: 24px;
+			background-color: #b1aeae;
+            color:rgb(87, 133, 40);
+		}
+		div {
+			width: 80%;
+		}
+        blink {
+            animation: animate
+                1.5s linear infinite;
+        }
+        @keyframes animate {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 0.7;
+            }
+
+            100% {
+                opacity: 0;
+            }
+	</style>
+<meta charset="UTF-8">
+<title>oneofzero.io</title>
+</head>
+
+<body>
+	<header></header>
+  	<div id="content">
+        >>> 1/0<br>
+        ZeroDivisionError: division by zero<br>
+        >>> <blink>|</blink>
+	</div>
+</div>
+</body>
+</html>
